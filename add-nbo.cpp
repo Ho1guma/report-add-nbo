@@ -21,5 +21,6 @@ int main(int argc, char** argv)
     //printf("32 bit number = 0x%08x\n",n1);
     //printf("32 bit number = 0x%08x\n",n2);
     printf("%d(0x%x)  + %d(0x%x) = %d(0x%x)", n2,n2,n1,n1,n1+n2,n1+n2);
-
+    fclose(fp1);
+    fclose(fp2);
 }
